@@ -1,4 +1,4 @@
-FROM golang:1.12.0-apline3.9
+FROM golang:1.16.7-apline3.14
 RUN midir /app
 ADD . /app
 WORKDIR /app
